@@ -1,9 +1,9 @@
 import Product from './Product';
 
-const Products = ({ data }) => {
+const Products = ({ menuItems }) => {
   return (
     <section className="products-comp">
-      {data.map((menuItem) => {
+      {menuItems.map((menuItem) => {
         return <Product key={menuItem.id} {...menuItem} />;
       })}
     </section>

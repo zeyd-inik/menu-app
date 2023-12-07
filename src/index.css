@@ -410,3 +410,17 @@ ul {
   text-align: justify;
   color: rgb(68, 66, 66);
 }
+.categories-comp .category-btn {
+  background-color: var(--primary-500);
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  margin: 0.4rem;
+  text-transform: capitalize;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.categories-comp .category-btn:hover {
+  cursor: pointer;
+}

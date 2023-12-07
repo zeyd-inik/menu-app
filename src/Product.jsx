@@ -1,4 +1,4 @@
-const Product = ({ id, title, category, price, img, desc }) => {
+const Product = ({ title, price, img, desc }) => {
   return (
     <article className="product-comp">
       <img src={img} alt={title} />
